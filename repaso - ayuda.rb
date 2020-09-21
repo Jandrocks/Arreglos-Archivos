@@ -67,7 +67,7 @@ b = a.select { {x} x % 2 == 0 } #seleccionamos todos los pares
 
 
 
-
+Leer todo un archivo y guardarlo en un stringTransformar datos un archivoLeer un archivo de múltiples líneasGuardar los resultadoscontent=File.read'file.txt'# Si el archivo no es muy grandedata=File.open('data').read.chomp.split(',')data=File.open('archivo2').readlinesFile.write('/path/to/file', 'datos')
 
 
 
